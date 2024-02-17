@@ -1,0 +1,9 @@
+.cardborder:hover {
+    border-radius: 1.5rem;
+    border: 0.1rem solid rgb(232, 232, 232);
+    padding-bottom: 0.8rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .cardborder{
+    padding: 1rem; /* Note: This padding will override the previous one */
+  }

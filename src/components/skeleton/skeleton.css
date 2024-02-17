@@ -1,0 +1,16 @@
+.skeleton{
+    background: #ddd;
+    margin:10px 0px;
+    border-radius: 4px;
+}
+
+.skeleton.title{
+    width: 18rem;
+    height: 12px;
+}
+
+.skeleton.thumbnail{
+    width: 328px;
+    height: 248px;
+    border-radius: 20px;
+}
