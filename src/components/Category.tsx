@@ -55,15 +55,22 @@ const Category: React.FC = () => {
   
 
   return (
-    <div className="bg-gray-100 py-10 my-0">
-      <h2 className="text-4xl">Inspiration for your first order</h2>
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Adjust the max-width and padding according to your design */}
-        
-      </div>
+  <div className="bg-gray-100">
+    <h2 className="text-4xl">Inspiration for your first order</h2>
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Adjust the max-width and padding according to your design */}
+      <Slider {...settings} className="my-10">
+        {categories.map((item, index) => (
+          <div key={index} className="flex flex-col justify-center items-center">
+            <img className="rounded-full" width={150} height={150} src={item.image} alt={item.name} />
+            <h1>{item.name}</h1>
+          </div>
+        ))}
+      </Slider>
     </div>
-  );
-  
+  </div>
+);
+
 };
 
 export default Category;
