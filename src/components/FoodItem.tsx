@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import data from "./data.json";
 import Skeleton from "./skeleton/Skeleton";
 import '../../src/components/Fooditem.css'
+import { Link } from "react-router-dom";
 interface FoodItem {
   name: string;
-  image: string;
+  image: string[];
   description: string;
   price: number;
   restaurant: string;
@@ -43,10 +44,11 @@ const FoodItem = () => {
           : // Show food items once data is loaded
             food.map((item, index) => (
               <li className="flex flex-col items-center cardborder" key={index} >
+               <Link to={`/food/${index}`}>
                 <div className="w-72 h-full min-w-80 rounded-3xl" >
                   <img
                     className="w-full h-full rounded-3xl min-h-64"
-                    src={item.image}
+                    src={item.image[0]}
                     alt={item.name}
                     width={328}
                   />
@@ -59,6 +61,8 @@ const FoodItem = () => {
                   <p>{item.description}</p>
                   <p>{item.price}</p>
                 </div>
+                </Link>
+
               </li>
             ))}
       </ul>

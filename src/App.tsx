@@ -1,16 +1,24 @@
 import "./App.css";
-import Category from "./components/Category";
-import FoodItem from "./components/FoodItem";
-import Navbar from "./components/Navbar";
 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './components/Home'
+import SingleFood from "./components/SingleFood";
+import '../src/components/Home.css'
 const App = () => {
-  console.log("heysdf");
+
   return (
-    <div className="max-w-full flex justify-center flex-col items-center">
-      <div className="max-w-7xl ">
-        <Navbar />
-        <Category/>
-         <FoodItem />
+    
+    <div className="App m-auto">
+    
+      <div  >
+      <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/food/:id" element={<SingleFood />} />
+
+      </Routes>
+    </Router>
+
       </div>
     </div>
   );

@@ -1,71 +1,130 @@
- {
-    "food_items": [
-      {
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/9/120999/035a54299df4c00998046f0a22db2050_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },
-      {
-        "name": "Chicken Tikka Masala",
-        "image": "https://b.zmtcdn.com/data/pictures/1/122171/be21e0916623638c5628d97a1a313d38_o2_featured_v2.jpg?output-format=webp",
-        "description": "Tender pieces of ",
-        "price": 12.99,
-        "restaurant": "Taste of India",
-        "restaurant_url": "https://www.zomato.com/taste-of-india"
-      },
-      {
-        "name": "Sushi Platter",
-        "image": "https://b.zmtcdn.com/data/pictures/chains/2/120612/61763825513590681c893e96fc3947fe_o2_featured_v2.jpg?output-format=webp",
-        "description": "Assorted sushi ",
-        "price": 14.99,
-        "restaurant": "Sushi Heaven",
-        "restaurant_url": "https://www.zomato.com/sushi-heaven"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/chains/0/120130/ddc93598d9bedc472837b0fad15d1cb7_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/6/18889816/72c4ab067c2f7dc1969d8eb27c6b2a44_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/chains/6/120976/517f929243a8a987437661453a5b45e0_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/chains/8/120228/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/chains/0/122270/dc224e3b97a542a8f74f1d459b89b2fa_o2_featured_v2.jpg?output-format=webp",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      },{
-        "name": "Margherita Pizza",
-        "image": "https://b.zmtcdn.com/data/pictures/4/121824/fea0fbe6f06dbd7ade1c4663b1aad8a1_o2_featured_v2.jpg",
-        "description": "Fresh tomatoes, basil",
-        "price": 10.99,
-        "restaurant": "Pizza Palace",
-        "restaurant_url": "https://www.zomato.com/pizza-palace"
-      }
-    ]
-  }
-  
+{
+  "food_items": [
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/9/120999/035a54299df4c00998046f0a22db2050_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/1/122171/be21e0916623638c5628d97a1a313d38_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Tender pieces of ",
+      "price": 12.99,
+      "restaurant": "Taste of India",
+      "restaurant_url": "https://www.zomato.com/taste-of-india"
+    },
+    {
+      "name": "Sushi Platter",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/chains/2/120612/61763825513590681c893e96fc3947fe_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Assorted sushi ",
+      "price": 14.99,
+      "restaurant": "Sushi Heaven",
+      "restaurant_url": "https://www.zomato.com/sushi-heaven"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/chains/0/120130/ddc93598d9bedc472837b0fad15d1cb7_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/6/18889816/72c4ab067c2f7dc1969d8eb27c6b2a44_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/chains/6/120976/517f929243a8a987437661453a5b45e0_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/chains/8/120228/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/chains/0/122270/dc224e3b97a542a8f74f1d459b89b2fa_o2_featured_v2.jpg?output-format=webp",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    },
+    {
+      "name": "Margherita Pizza",
+      "image": [
+        "https://b.zmtcdn.com/data/pictures/4/121824/fea0fbe6f06dbd7ade1c4663b1aad8a1_o2_featured_v2.jpg",
+        "https://b.zmtcdn.com/data/reviews_photos/7c7/2066c3f275bc6528e7c97584d864d7c7_1680009654.jpg?fit=around|300:273&crop=300:273;",
+        "https://b.zmtcdn.com/data/reviews_photos/cec/b3edf29c616d710f7b1e9f1551095cec_1691859096.jpg?fit=around|300:273&crop=300:273;"
+        ,"https://b.zmtcdn.com/data/reviews_photos/4f0/04b140cc61d8bbad1af75709d8bfc4f0_1691859096.jpg?output-format=webp&fit=around|300:273&crop=300:273;"
+
+      ],
+      "description": "Fresh tomatoes, basil",
+      "price": 10.99,
+      "restaurant": "Pizza Palace",
+      "restaurant_url": "https://www.zomato.com/pizza-palace"
+    }
+  ]
+}

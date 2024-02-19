@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../tic-tac-toe-React/my-app"
+		}
+	],
+	"settings": {}
+}

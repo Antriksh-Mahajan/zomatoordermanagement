@@ -2,8 +2,9 @@
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-wrap justify-center lg:justify-between items-center  md:gap-0 md:gap-52  py-5  lg:mx-24   ">
-        <div className="justify-center lg:justify-normal flex flex-wrap gap-10 items-center " >
+
+      <div  className=" flex flex-wrap justify-center lg:justify-between items-center  md:gap-0  py-5     ">
+        <div  className="justify-center lg:justify-normal flex flex-wrap gap-10 items-center " >
         <img
           className=""
           width={126}
